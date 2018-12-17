@@ -22,18 +22,18 @@ from googletrans import Translator
 import youtube_dl
 #import pyimgflip
 
-kifli = LineClient(authToken='EzOev0BXGUkwT1FB8nxe.+r+jAIdxZWQoBO38ex8YVG.Yl3F1JfVKI29K9b8s5qTKma2oDkU9QopgFdMwY9ACOU=')
+kifli = LineClient(authToken='')
 kifli.log("Auth Token : " + str(kifli.authToken))
 channel = LineChannel(kifli)
 kifli.log("Channel Access Token : " + str(channel.channelAccessToken))
-print("\nBOT MULAI BERJALAN.......\n")
+print("\nSELFBOT-BY:MAX\n")
 
 poll = LinePoll(kifli)
 call = kifli
-creator = ["ufd1fc96a20d7cf0a8e6e8dfc117f32be"]
-owner = ["ufd1fc96a20d7cf0a8e6e8dfc117f32be"]
-admin = ["ufd1fc96a20d7cf0a8e6e8dfc117f32be"]
-staff = ["ufd1fc96a20d7cf0a8e6e8dfc117f32be"]
+creator = [""]
+owner = [""]
+admin = [""]
+staff = [""]
 lineProfile = kifli.getProfile()
 mid = kifli.getProfile().mid
 KAC = [kifli]
@@ -110,7 +110,7 @@ wait = {
     "invite":False,
     'autoJoin':True,
     'autoAdd':False,
-    'autoBlock':False,
+    'autoBlock':True,
     'Timeline':True,
     'autoLeave':False,
     'autoLeave1':False,
@@ -151,8 +151,8 @@ wait = {
     "Respontag":"Ngetag lagi kangen ya",
     "welcome":"รεℓαɱαт ∂αтαɳɠ \nɓµ∂αყαҡαɳ ૮εҡ ɳσтε.\nรεɱoga jadi kawan baik\namin",
     "leave":"Slamat tinggal sobat\nsmoga ktmu di lain hari nanti",
-    "comment":" ──────┅❇͜͡❇͜͡☆͜͡❇͜͡❇┅──────\nᴼᴾᴱᴺ ᴼᴿᴰᴱᴿ\n────────┅┅───────\n➣ꜱᴇʟꜰʙᴏᴛ ᴏɴʟʏ\n➣ꜱᴇʟꜰʙᴏᴛ + ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 2 ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 3 ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 4 ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 5 ᴀꜱɪꜱᴛ\n➣ʙᴏᴛᴘʀᴏᴛᴇᴄᴛ 3-11 ʙᴏᴛ ᴀꜱɪꜱᴛ\n➣ɴᴇᴡ ꜱᴄʀɪᴘᴛ\n➣ʜʀɢᴀ ʙɪꜱᴀ ɴᴇɢᴏ\n─────────┅┅─────────\n  ✯❇͜͡❇͜͡C͜͡r͜͡e͜͡a͜͡t͜͡o͜͡r✯͜͡$͜͡ë͜͡I͜͡F͜͡-͜͡฿͜͜͡͡o͜͡t͜͡ ͜͡❇͜͡❇✯\nline.me/ti/p/~reza.p.i.p\nline.me/ti/p/~reza.p.i.p\n➣ѕєʟғвот κɪcκєʀ_+_ᴘʀᴏᴛᴇᴄᴛ\n────────┅❇͜͡❇͜͡☆͜͡❇͜͡❇┅────────",
-    "message":"Terimɑ Kɑsih yɑ....\nUdɑh Menɑmbɑhkɑn Sɑyɑ Sebɑgɑi Temɑn ɑndɑ.\nSemogɑ Kitɑ Bisɑ Jɑlin Silɑturɑhmi Dengɑn Bɑik.\n\nвστ вy:dzulkifli",
+    "comment":" ──────┅❇͜͡❇͜͡☆͜͡❇͜͡❇┅──────\nᴼᴾᴱᴺ ᴼᴿᴰᴱᴿ\n────────┅┅───────\n➣ꜱᴇʟꜰʙᴏᴛ ᴏɴʟʏ\n➣ꜱᴇʟꜰʙᴏᴛ + ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 2 ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 3 ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 4 ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 5 ᴀꜱɪꜱᴛ\n➣ʙᴏᴛᴘʀᴏᴛᴇᴄᴛ 3-11 ʙᴏᴛ ᴀꜱɪꜱᴛ\n➣ɴᴇᴡ ꜱᴄʀɪᴘᴛ\n➣ʜʀɢᴀ ʙɪꜱᴀ ɴᴇɢᴏ\n─────────┅┅─────────\n  ✯❇͜͡❇͜͡BY SELFBOT-BY:MAX❇͜͡❇✯\nline.me/ti/p/~max_pv\nline.me/ti/p/~max_pv\n➣ѕєʟғвот κɪcκєʀ_+_ᴘʀᴏᴛᴇᴄᴛ\n────────┅❇͜͡❇͜͡☆͜͡❇͜͡❇┅────────",
+    "message":"Terimɑ Kɑsih yɑ....\nUdɑh Menɑmbɑhkɑn Sɑyɑ Sebɑgɑi Temɑn ɑndɑ.\nSemogɑ Kitɑ Bisɑ Jɑlin Silɑturɑhmi Dengɑn Bɑik.\n\nвστ вy:SELFBOT-BY:MAX",
 }
 read = {
     "readPoint":{},
@@ -403,7 +403,7 @@ def atend():
 def help():
     key = Setmain["keyCommand"]
     key = key.title()
-    helpMessage = "🔑❂͜͡➣ " + key + " [🔰Ⓓⓚ~ⒷⓄⓣ☯t]\n" + \
+    helpMessage = "🔑❂͜͡➣ " + key + " [ SELFBOT-BY:MAX ]\n" + \
                    "🔑❂͜͡➣" + key + "✰DRAGON KILLER✰\n" + \
                   "🔑❂͜͡➣ " + key + "ʜᴇʟᴘ\n" + \
                   "🔑❂͜͡➣ " + key + "ʜᴇʟᴘ1\n" + \
@@ -425,14 +425,14 @@ def help():
                    "🔑❂͜͡➣" + key + "ʀᴇsᴇᴛᴋᴇʏ\n" + \
                   "🔑❂͜͡➣ " + key + "ʀᴇғʀᴇsʜ\n" + \
                   "👮❂͜͡➣ " + key + "Restart\n"+ \
-                  "🔑❂͜͡➣ [[DKBOT-LINE]]"
+                  "🔑❂͜͡➣ [[SELFBOT-BY:MAX]]"
 
     return helpMessage
 
 def help1():
     key = Setmain["keyCommand"]
     key = key.title()
-    helpMessage1 = "🔑❂͜͡➣ " + key + " [🔰Ⓓⓚ~ⒷⓄⓣ☯t]\n" + \
+    helpMessage1 = "🔑❂͜͡➣ " + key + " [ SELFBOT-BY:MAX ]\n" + \
                   "🔑❂͜͡➣ " + key + "ᴛᴀɢᴀʟʟ/ɴᴀʜ\n" + \
                   "🔑❂͜͡➣ " + key + "ɢɪɴғᴏ\n" + \
                   "🔑❂͜͡➣ " + key + "ᴏᴘᴇɴ\n" + \
@@ -469,15 +469,15 @@ def help1():
                    "🔑❂͜͡➣ " + key + "ᴜᴘᴅᴀᴛᴇɢʀᴜᴘ\n" + \
                    "🔑❂͜͡➣ " + key + "ɢɪғᴛ:「ᴍɪᴅ ᴋᴏʀʙᴀɴ」「ᴊᴜᴍʟᴀʜ」\n" + \
                    "🔑❂͜͡➣ " + key + "sᴘᴀᴍ:「ᴍɪᴅ ᴋᴏʀʙᴀɴ」「ᴊᴜᴍʟᴀʜ」\n" + \
-                   "「🔑]   ʙʏ: Dzulkifli「🔑] \n" + \
-                   "  Creator:  line.me/ti/p/~reza.p.i.p"
+                   "「🔑]   ʙʏ: SELFBOT-BY:MAX「🔑] \n" + \
+                   "  Creator:  line.me/ti/p/~max_pv"
                   
     return helpMessage1
 
 def help2():
     key = Setmain["keyCommand"]
     key = key.title()
-    helpMessage2= "      「✭SETTING DK-BOT✭」\n" + \
+    helpMessage2= "      「✭SETTING BOT✭」\n" + \
                   "「🔑」 " + key + "ɪɴᴠɪᴛᴇ「ᴏɴ/ᴏғғ」\n" + \
                   "「🔑」 " + key + "sᴛɪᴄᴋᴇʀ「ᴏɴ/ᴏғғ」\n" + \
                   "「🔑」 " + key + "ᴜɴsᴇɴᴅ「ᴏɴ/ᴏғғ」\n" + \
@@ -506,8 +506,8 @@ def help2():
                   "「🔑] " + key + "Dkbot「ᴛᴇxᴛ」」\n" + \
                   "「🔑] " + key + "Berapa besar dosa「ᴛᴇxᴛ」\n" + \
                   "「🔑] " + key + "Berapa besar amal「ᴛᴇxᴛ」\n" + \
-                  " [🔑DKBOT-LINE]🕸 ⃢   ⟗\n" + \
-                  "🔑Creator:  line.me/ti/p/~reza.p.i.p"
+                  " [🔑 SELFBOT-BY:MAX ]\n" + \
+                  "🔑Creator:  line.me/ti/p/~max_pv"
 
     return helpMessage2
 
@@ -519,11 +519,11 @@ def help3():
                   "「🔑」 " + key + "Listmp3\n" + \
                   "「🔑」 " + key + "Addmp3「Teks」\n" + \
                   "「🔑」 " + key + "Dellmp3「Teks」\n" + \
-                  "      「✭VIDEO DK✭」\n" + \
+                  "      「✭VIDEO✭」\n" + \
                   "「🔑」 " + key + "Listvideo\n" + \
                   "「🔑」 " + key + "Addvideo「Teks」\n" + \
                   "「🔑」 " + key + "Dellvideo「Teks」\n" + \
-                  "      「✭GAMBAR DK✭」\n" + \
+                  "      「✭GAMBAR✭」\n" + \
                   "「🔑」 " + key + "Listimage\n" + \
                   "「🔑」 " + key + "Addimg「Teks」\n" + \
                   "「🔑」 " + key + "Dellimg「Teks」\n" + \
@@ -553,8 +553,8 @@ def help3():
                   "「🔑」 " + key + "Get-lirik「Judul Lagu」\n" + \
                   "「🔑」 " + key + "Get-instagram「User Name」\n" + \
                   "「🔑」 " + key + "Get-date「tgl-bln-thn」\n" + \
-                  "「🔑」ʙʏ: Dzulkifli🕸 ⃢   ⟗\n" + \
-                  "  Creator:  line.me/ti/p/~reza.p.i.p"
+                  "「🔑」ʙʏ: SELFBOT-BY:MAX🕸 ⃢   ⟗\n" + \
+                  "  Creator:  line.me/ti/p/~max_pv"
 
     return helpMessage3
 
@@ -1192,7 +1192,7 @@ def bot(op):
                                 zx = ""
                                 zxc = ""
                                 zx2 = []
-                                xpesan =  "「 TIM DK-BOT 」\n• User : "
+                                xpesan =  "「 SELFBOT-BY:MAX 」\n• User : "
                                 ret_ = "• Group : {}\n".format(str(ginfo.name))
                                 ret_ += str(md)
                                 ry = str(ryan.displayName)
