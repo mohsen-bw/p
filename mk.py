@@ -30,10 +30,10 @@ print("\nSELFBOT-BY:MAX\n")
 
 poll = LinePoll(kifli)
 call = kifli
-creator = ["u49dc3be134c7903967ba1f352352b1da"]
-owner = ["u49dc3be134c7903967ba1f352352b1da"]
-admin = ["u49dc3be134c7903967ba1f352352b1da"]
-staff = ["u49dc3be134c7903967ba1f352352b1da"]
+creator = ["u954d9f74bc255dad64dc89bf1601469c"]
+owner = ["u954d9f74bc255dad64dc89bf1601469c"]
+admin = ["u954d9f74bc255dad64dc89bf1601469c"]
+staff = ["u954d9f74bc255dad64dc89bf1601469c"]
 lineProfile = kifli.getProfile()
 mid = kifli.getProfile().mid
 KAC = [kifli]
@@ -424,7 +424,7 @@ def help():
                   "🤖❂͜͡➣ " + key + "ʀᴇsᴇᴛᴋᴇʏ\n" + \
                   "🤖❂͜͡➣ " + key + "ʀᴇғʀᴇsʜ\n" + \
                   "🤖❂͜͡➣ " + key + "Restart\n"+ \
-                  "🤖❂͜͡➣ [SELFBOT-BY:MAX]"
+                  "🤖❂͜͡➣ ʙʏ: sᴇʟғʙᴏᴛ-ʙʏ:ᴍᴀx"
 
     return helpMessage
 
@@ -468,8 +468,8 @@ def help1():
                   "🤖❂͜͡➣ " + key + "ᴜᴘᴅᴀᴛᴇɢʀᴜᴘ\n" + \
                   "🤖❂͜͡➣ " + key + "ɢɪғᴛ:「ᴍɪᴅ ᴋᴏʀʙᴀɴ」「ᴊᴜᴍʟᴀʜ」\n" + \
                   "🤖❂͜͡➣ " + key + "sᴘᴀᴍ:「ᴍɪᴅ ᴋᴏʀʙᴀɴ」「ᴊᴜᴍʟᴀʜ」\n" + \
-                  "「🤖]   ʙʏ: SELFBOT-BY:MAX「🔑] \n" + \
-                  "  Creator:  line.me/ti/p/~max_pv"
+                  "「🤖] ʙʏ: sᴇʟғʙᴏᴛ-ʙʏ:ᴍᴀx「🤖] \n" + \
+                  "  Creator: line.me/ti/p/~max_pv"
                   
     return helpMessage1
 
@@ -505,8 +505,8 @@ def help2():
                   "「🤖] " + key + "Dkbot「ᴛᴇxᴛ」」\n" + \
                   "「🤖] " + key + "Berapa besar dosa「ᴛᴇxᴛ」\n" + \
                   "「🤖] " + key + "Berapa besar amal「ᴛᴇxᴛ」\n" + \
-                  " [🤖 SELFBOT-BY:MAX ]\n" + \
-                  "🤖 Creator:\nline.me/ti/p/~max_pv"
+                  " [🤖 ʙʏ: sᴇʟғʙᴏᴛ-ʙʏ:ᴍᴀx ]\n" + \
+                  "  Creator: line.me/ti/p/~max_pv"
 
     return helpMessage2
 
@@ -552,8 +552,8 @@ def help3():
                   "「🤖」 " + key + "Get-lirik「Judul Lagu」\n" + \
                   "「🤖」 " + key + "Get-instagram「User Name」\n" + \
                   "「🤖」 " + key + "Get-date「tgl-bln-thn」\n" + \
-                  "「🤖」ʙʏ: SELFBOT-BY:MAX\n" + \
-                  "  Creator:\nline.me/ti/p/~max_pv"
+                  "「🤖」ʙʏ: sᴇʟғʙᴏᴛ-ʙʏ:ᴍᴀx\n" + \
+                  "  Creator: line.me/ti/p/~max_pv"
 
     return helpMessage3
 
@@ -602,11 +602,12 @@ def bot(op):
                   kifli.findAndAddContactsByMid(op.param1)
                   sendMention(op.param1, op.param1, "Haii ", ", terimakasih sudah add saya")
                   kifli.sendText(op.param1, wait["message"])
-                  kifli.sendContact(op.param1, "u49dc3be134c7903967ba1f352352b1da")
+                  kifli.sendContact(op.param1, "u954d9f74bc255dad64dc89bf1601469c")
 
         if op.type == 5:
             print ("[ 5 ] NOTIFIED AUTO BLOCK CONTACT")
             if wait["autoBlock"] == True:
+                kifli.sendContact(op.param1, "u954d9f74bc255dad64dc89bf1601469c")
                 kifli.blockContact(op.param1)
 
         if op.type == 65:
