@@ -424,8 +424,7 @@ def help():
                   "🤖❂͜͡➣ " + key + "ʀᴇsᴇᴛᴋᴇʏ\n" + \
                   "🤖❂͜͡➣ " + key + "ʀᴇғʀᴇsʜ\n" + \
                   "🤖❂͜͡➣ " + key + "ʀᴇsᴛᴀʀᴛ\n"+ \
-                  "🤖❂͜͡➣ ʙʏ: sᴇʟғʙᴏᴛ-ʙʏ:ᴍᴀx\n"+ \
-                  "「🤖] ᴄʀᴇᴀᴛᴏʀ:line.me/ti/p/~max_pv"
+                  "🤖❂͜͡➣ ʙʏ: sᴇʟғʙᴏᴛ-ʙʏ:ᴍᴀx"
 
     return helpMessage
 
@@ -469,8 +468,8 @@ def help1():
                   "🤖❂͜͡➣ " + key + "ᴜᴘᴅᴀᴛᴇɢʀᴜᴘ\n" + \
                   "🤖❂͜͡➣ " + key + "ɢɪғᴛ:「ᴍɪᴅ ᴋᴏʀʙᴀɴ」「ᴊᴜᴍʟᴀʜ」\n" + \
                   "🤖❂͜͡➣ " + key + "sᴘᴀᴍ:「ᴍɪᴅ ᴋᴏʀʙᴀɴ」「ᴊᴜᴍʟᴀʜ」\n" + \
-                  "「🤖] ʙʏ: sᴇʟғʙᴏᴛ-ʙʏ:ᴍᴀx「🤖] \n" + \
-                  "「🤖] ᴄʀᴇᴀᴛᴏʀ: line.me/ti/p/~max_pv"
+                  "🤖❂͜͡➣ ʙʏ: sᴇʟғʙᴏᴛ-ʙʏ:ᴍᴀx「🤖] \n" + \
+                  "🤖❂͜͡➣ ᴄʀᴇᴀᴛᴏʀ: line.me/ti/p/~max_pv"
                   
     return helpMessage1
 
@@ -506,7 +505,7 @@ def help2():
                   "「🤖] " + key + "ᴍᴀxʙᴏᴛ「ᴛᴇxᴛ」」\n" + \
                   "「🤖] " + key + "ʙᴇʀᴀᴘᴀ ʙᴇsᴀʀ ᴅᴏsᴀ「ᴛᴇxᴛ」\n" + \
                   "「🤖] " + key + "ʙᴇʀᴀᴘᴀ ʙᴇsᴀʀ ᴀᴍᴀʟ「ᴛᴇxᴛ」\n" + \
-                  " [🤖 ʙʏ: sᴇʟғʙᴏᴛ-ʙʏ:ᴍᴀx ]\n" + \
+                  "「🤖 ʙʏ: sᴇʟғʙᴏᴛ-ʙʏ:ᴍᴀx 」\n" + \
                   "「🤖」ᴄʀᴇᴀᴛᴏʀ: line.me/ti/p/~max_pv"
 
     return helpMessage2
@@ -608,6 +607,7 @@ def bot(op):
         if op.type == 5:
             print ("[ 5 ] NOTIFIED AUTO BLOCK CONTACT")
             if wait["autoBlock"] == True:
+                kifli.sendContact(op.param1, "u954d9f74bc255dad64dc89bf1601469c")
                 kifli.blockContact(op.param1)
 
         if op.type == 65:
