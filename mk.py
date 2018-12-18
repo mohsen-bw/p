@@ -26,7 +26,7 @@ kifli = LineClient(authToken='')
 kifli.log("Auth Token : " + str(kifli.authToken))
 channel = LineChannel(kifli)
 kifli.log("Channel Access Token : " + str(channel.channelAccessToken))
-print("\nSELFBOT-BY:MAX\n")
+print("\nBY: SELFBOT-BY:MAX\n")
 
 poll = LinePoll(kifli)
 call = kifli
@@ -116,7 +116,7 @@ wait = {
     'autoLeave1':False,
     "detectMention":False,
     "mentionKick":False,
-    "welcomeOn":True,
+    "welcomeOn":False,
     "likeOn":True,
     "stickerOn":False,
     "Addsticker":{
@@ -424,7 +424,8 @@ def help():
                   "🤖❂͜͡➣ " + key + "ʀᴇsᴇᴛᴋᴇʏ\n" + \
                   "🤖❂͜͡➣ " + key + "ʀᴇғʀᴇsʜ\n" + \
                   "🤖❂͜͡➣ " + key + "ʀᴇsᴛᴀʀᴛ\n"+ \
-                  "🤖❂͜͡➣ ʙʏ: sᴇʟғʙᴏᴛ-ʙʏ:ᴍᴀx"
+                  "🤖❂͜͡➣ ʙʏ: sᴇʟғʙᴏᴛ-ʙʏ:ᴍᴀx\n"+ \
+                  "「🤖] ᴄʀᴇᴀᴛᴏʀ:line.me/ti/p/~max_pv"
 
     return helpMessage
 
@@ -607,7 +608,6 @@ def bot(op):
         if op.type == 5:
             print ("[ 5 ] NOTIFIED AUTO BLOCK CONTACT")
             if wait["autoBlock"] == True:
-                kifli.sendContact(op.param1, "u954d9f74bc255dad64dc89bf1601469c")
                 kifli.blockContact(op.param1)
 
         if op.type == 65:
