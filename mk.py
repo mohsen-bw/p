@@ -403,13 +403,13 @@ def atend():
 def help():
     key = Setmain["keyCommand"]
     key = key.title()
-    helpMessage = "🤖❂͜͡➣ " + key + "[ SELFBOT-BY:MAX ]\n" + \
+    helpMessage = "🤖❂͜͡➣ " + key + "「 sᴇʟғʙᴏᴛ-ʙʏ:ᴍᴀx 」\n" + \
                   "🤖❂͜͡➣ " + key + "ʜᴇʟᴘ\n" + \
                   "🤖❂͜͡➣ " + key + "ʜᴇʟᴘ1\n" + \
                   "🤖❂͜͡➣ " + key + "ʜᴇʟᴘ2\n" + \
                   "🤖❂͜͡➣ " + key + "ʜᴇʟᴘ3\n" + \
                   "🤖❂͜͡➣ " + key + "ʜᴇʟᴘ4\n" + \
-                  "🤖❂͜͡➣ " + key + "ʜᴇʟᴘ5\n" + \
+                  "🤖❂͜͡➣ " + key + "ᴠᴋ「@」\n" + \
                   "🤖❂͜͡➣ " + key + "ᴍᴇ\n" + \
                   "🤖❂͜͡➣ " + key + "sᴛᴀᴛᴜs\n" + \
                   "🤖❂͜͡➣ " + key + "ᴀʙᴏᴜᴛ\n" + \
@@ -423,7 +423,7 @@ def help():
                   "🤖❂͜͡➣ " + key + "ᴍʏᴋᴇʏ\n" + \
                   "🤖❂͜͡➣ " + key + "ʀᴇsᴇᴛᴋᴇʏ\n" + \
                   "🤖❂͜͡➣ " + key + "ʀᴇғʀᴇsʜ\n" + \
-                  "🤖❂͜͡➣ " + key + "Restart\n"+ \
+                  "🤖❂͜͡➣ " + key + "ʀᴇsᴛᴀʀᴛ\n"+ \
                   "🤖❂͜͡➣ ʙʏ: sᴇʟғʙᴏᴛ-ʙʏ:ᴍᴀx"
 
     return helpMessage
@@ -431,15 +431,15 @@ def help():
 def help1():
     key = Setmain["keyCommand"]
     key = key.title()
-    helpMessage1 = "🤖❂͜͡➣ " + key + " [ SELFBOT-BY:MAX ]\n" + \
+    helpMessage1 = "🤖❂͜͡➣ " + key + " [ sᴇʟғʙᴏᴛ-ʙʏ:ᴍᴀx ]\n" + \
                   "🤖❂͜͡➣ " + key + "ᴛᴀɢᴀʟʟ/ɴᴀʜ\n" + \
                   "🤖❂͜͡➣ " + key + "ɢɪɴғᴏ\n" + \
                   "🤖❂͜͡➣ " + key + "ᴏᴘᴇɴ\n" + \
                   "🤖❂͜͡➣ " + key + "ᴄʟᴏsᴇ\n" + \
                   "🤖❂͜͡➣ " + key + "ᴜʀʟ\n" + \
                   "🤖❂͜͡➣ " + key + "ɢʀᴜᴘʟɪsᴛ\n" + \
-                  "🤖❂͜͡➣ " + key + "Kibar\n" + \
-                  "🤖❂͜͡➣ " + key + "Maxbot\n" + \
+                  "🤖❂͜͡➣ " + key + "ᴋɪʙᴀʀ\n" + \
+                  "🤖❂͜͡➣ " + key + "ᴍᴀxʙᴏᴛ\n" + \
                   "🤖❂͜͡➣ " + key + "Harga\n" + \
                   "🤖❂͜͡➣ " + key + "Adminadd @\Admindell @\n" + \
                   "🤖❂͜͡➣ " + key + "Staffadd @\Staffdell @「ɴᴏᴍᴇʀ」\n" + \
@@ -469,14 +469,14 @@ def help1():
                   "🤖❂͜͡➣ " + key + "ɢɪғᴛ:「ᴍɪᴅ ᴋᴏʀʙᴀɴ」「ᴊᴜᴍʟᴀʜ」\n" + \
                   "🤖❂͜͡➣ " + key + "sᴘᴀᴍ:「ᴍɪᴅ ᴋᴏʀʙᴀɴ」「ᴊᴜᴍʟᴀʜ」\n" + \
                   "「🤖] ʙʏ: sᴇʟғʙᴏᴛ-ʙʏ:ᴍᴀx「🤖] \n" + \
-                  "  Creator: line.me/ti/p/~max_pv"
+                  "「🤖] ᴄʀᴇᴀᴛᴏʀ: line.me/ti/p/~max_pv"
                   
     return helpMessage1
 
 def help2():
     key = Setmain["keyCommand"]
     key = key.title()
-    helpMessage2= "      「✭SETTING BOT✭」\n" + \
+    helpMessage2= "    「✭ sᴇᴛᴛɪɴɢ ʙᴏᴛ ✭」\n" + \
                   "「🤖」" + key + "ɪɴᴠɪᴛᴇ「ᴏɴ/ᴏғғ」\n" + \
                   "「🤖」" + key + "sᴛɪᴄᴋᴇʀ「ᴏɴ/ᴏғғ」\n" + \
                   "「🤖」" + key + "ᴜɴsᴇɴᴅ「ᴏɴ/ᴏғғ」\n" + \
@@ -501,37 +501,37 @@ def help2():
                   "「🤖] " + key + "sᴇᴛ ʀᴇsᴘᴏɴ:「ᴛᴇxᴛ」\n" + \
                   "「🤖] " + key + "sᴇᴛ ʟᴇᴀᴠᴇ:「ᴛᴇxᴛ」\n" + \
                   "「🤖] " + key + "sᴇᴛ ᴡᴇʟᴄᴏᴍᴇ:「ᴛᴇxᴛ」\n" + \
-                  "「🤖] " + key + "Apakah「ᴛᴇxᴛ」\n" + \
-                  "「🤖] " + key + "Dkbot「ᴛᴇxᴛ」」\n" + \
-                  "「🤖] " + key + "Berapa besar dosa「ᴛᴇxᴛ」\n" + \
-                  "「🤖] " + key + "Berapa besar amal「ᴛᴇxᴛ」\n" + \
+                  "「🤖] " + key + "ᴀᴘᴀᴋᴀʜ「ᴛᴇxᴛ」\n" + \
+                  "「🤖] " + key + "ᴍᴀxʙᴏᴛ「ᴛᴇxᴛ」」\n" + \
+                  "「🤖] " + key + "ʙᴇʀᴀᴘᴀ ʙᴇsᴀʀ ᴅᴏsᴀ「ᴛᴇxᴛ」\n" + \
+                  "「🤖] " + key + "ʙᴇʀᴀᴘᴀ ʙᴇsᴀʀ ᴀᴍᴀʟ「ᴛᴇxᴛ」\n" + \
                   " [🤖 ʙʏ: sᴇʟғʙᴏᴛ-ʙʏ:ᴍᴀx ]\n" + \
-                  "  Creator: line.me/ti/p/~max_pv"
+                  "「🤖」ᴄʀᴇᴀᴛᴏʀ: line.me/ti/p/~max_pv"
 
     return helpMessage2
 
 def help3():
     key = Setmain["keyCommand"]
     key = key.title()
-    helpMessage3 = "      「✭MUSIK JBP✭」\n" + \
+    helpMessage3 = "    「✭ ᴍᴜsɪᴋ ᴊʙᴘ ✭」\n" + \
                   "「🤖」 " + key + "Musik「Nama Penyanyi」\n" + \
                   "「🤖」 " + key + "Listmp3\n" + \
                   "「🤖」 " + key + "Addmp3「Teks」\n" + \
                   "「🤖」 " + key + "Dellmp3「Teks」\n" + \
-                  "      「✭VIDEO✭」\n" + \
+                  "    「✭ ᴠɪᴅᴇᴏ ✭」\n" + \
                   "「🤖」 " + key + "Listvideo\n" + \
                   "「🤖」 " + key + "Addvideo「Teks」\n" + \
                   "「🤖」 " + key + "Dellvideo「Teks」\n" + \
-                  "      「✭GAMBAR✭」\n" + \
+                  "    「✭ ɢᴀᴍʙᴀʀ ✭」\n" + \
                   "「🤖」 " + key + "Listimage\n" + \
                   "「🤖」 " + key + "Addimg「Teks」\n" + \
                   "「🤖」 " + key + "Dellimg「Teks」\n" + \
-                  "      「✭STICKER JBP✭」\n" + \
+                  "    「✭ sᴛɪᴄᴋᴇʀ ᴊʙᴘ ✭」\n" + \
                   "「🤖」 " + key + "Liststicker\n" + \
                   "「🤖」 " + key + "Addsticker「Teks」\n" + \
                   "「🤖」 " + key + "Dellsticker「Teks」\n" + \
                   "「🤖」 " + key + "Kode wilayah\n" + \
-                  "      「✭MEDIA LAIN JBP✭」\n" + \
+                  "    「✭ ᴍᴇᴅɪᴀ ʟᴀɪɴ ᴊʙᴘ ✭」\n" + \
                   "「🤖」 " + key + "Lihat 「Kode wilayah cctv」\n" + \
                   "「🤖」 " + key + "Youtube「Query」\n" + \
                   "「🤖」 " + key + "Get-fs「Query」\n" + \
@@ -553,7 +553,7 @@ def help3():
                   "「🤖」 " + key + "Get-instagram「User Name」\n" + \
                   "「🤖」 " + key + "Get-date「tgl-bln-thn」\n" + \
                   "「🤖」ʙʏ: sᴇʟғʙᴏᴛ-ʙʏ:ᴍᴀx\n" + \
-                  "  Creator: line.me/ti/p/~max_pv"
+                  "「🤖」ᴄʀᴇᴀᴛᴏʀ: line.me/ti/p/~max_pv"
 
     return helpMessage3
 
@@ -1251,7 +1251,7 @@ def bot(op):
                                 ret_ += "\n• 「🤖」ɪɴ ᴅᴀʏs : {} ᴀɢᴀɪɴ".format(days)
                                 ret_ += "\n「 sᴘᴇᴇᴅ ʀᴇsᴘᴏɴ 」\n• ✡༎⎑  ༓{} ᴅᴇᴛɪᴋ".format(str(elapsed_time))
                                 ret_ += "\n「 sᴇʟғʙᴏᴛ ʀᴜɴᴛɪᴍᴇ 」\n• ✡༎⎑  ༓{}".format(str(bot))
-                                ret_ += "\n⟗  ʙʏ: SELFBOT-BY:MAX"
+                                ret_ += "\n   ʙʏ: sᴇʟғʙᴏᴛ-ʙʏ:ᴍᴀx"
                                 ry = str(ryan.displayName)
                                 pesan = ''
                                 pesan2 = pesan+"@x \n"
@@ -1522,15 +1522,15 @@ def bot(op):
                                 timeCreated = []
                                 timeCreated.append(time.strftime("%d-%m-%Y [ %H:%M:%S ]", time.localtime(int(G.createdTime) / 1000)))
                                 ret_ += "「 Group Info 」"
-                                ret_ += "\n「🔑」  ɴᴀᴍᴀ ɢʀᴜᴘ : {}".format(G.name)
-                                ret_ += "\n「🔑」 ID Group : {}".format(G.id)
-                                ret_ += "\n「🔑」 Pembuat : {}".format(gCreator)
-                                ret_ += "\n「🔑」 Waktu Dibuat : {}".format(str(timeCreated))
-                                ret_ += "\n「🔑」 Jumlah Member : {}".format(str(len(G.members)))
-                                ret_ += "\n「🔑」 Jumlah Pending : {}".format(gPending)
-                                ret_ += "\n「🔑」 Group Qr : {}".format(gQr)
-                                ret_ += "\n「🔑」 Group Ticket : {}".format(gTicket)
-                                ret_ += "\n「🔑」 Picture Url : http://dl.profile.line-cdn.net/{}".format(G.pictureStatus)
+                                ret_ += "\n「🤖」  ɴᴀᴍᴀ ɢʀᴜᴘ : {}".format(G.name)
+                                ret_ += "\n「🤖」 ID Group : {}".format(G.id)
+                                ret_ += "\n「🤖」 Pembuat : {}".format(gCreator)
+                                ret_ += "\n「🤖」 Waktu Dibuat : {}".format(str(timeCreated))
+                                ret_ += "\n「🤖」 Jumlah Member : {}".format(str(len(G.members)))
+                                ret_ += "\n「🤖」 Jumlah Pending : {}".format(gPending)
+                                ret_ += "\n「🤖」 Group Qr : {}".format(gQr)
+                                ret_ += "\n「🤖」 Group Ticket : {}".format(gTicket)
+                                ret_ += "\n「🤖」 Picture Url : http://dl.profile.line-cdn.net/{}".format(G.pictureStatus)
                                 ret_ += ""
                                 kifli.sendMessage(to, str(ret_))
                                 kifli.sendImageWithURL(msg.to, 'http://dl.profile.line-cdn.net/'+G.pictureStatus)
@@ -3442,6 +3442,20 @@ def bot(op):
                                          msgs += "\nSemua protection dimatikan"
                                     kifli.sendMessage(msg.to, "「 Status Protection 」\n" + msgs)
 
+                        elif ("Vk " in msg.text):
+                          if wait["selfbot"] == True:
+                            if msg._from in admin:
+                               key = eval(msg.contentMetadata["MENTION"])
+                               key["MENTIONEES"][0]["M"]
+                               targets = []
+                               for x in key["MENTIONEES"]:
+                                    targets.append(x["M"])
+                               for target in targets:
+                                   if target not in Bots:
+                                       try:
+                                           kifli.kickoutFromGroup(msg.to, [target])
+                                       except:
+                                           pass
 #===========COMMAND ON OFF============#
                         elif cmd == "spaminvite on":
                           if wait["selfbot"] == True:
