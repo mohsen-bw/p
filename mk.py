@@ -410,6 +410,7 @@ def help():
                   "🤖❂͜͡➣ " + key + "ʜᴇʟᴘ3\n" + \
                   "🤖❂͜͡➣ " + key + "ʜᴇʟᴘ4\n" + \
                   "🤖❂͜͡➣ " + key + "ᴠᴋ「@」\n" + \
+                  "🤖❂͜͡➣ " + key + "!maxkick「คำสั่งลบกลุ่ม」\n" + \
                   "🤖❂͜͡➣ " + key + "ᴍᴇ\n" + \
                   "🤖❂͜͡➣ " + key + "sᴛᴀᴛᴜs\n" + \
                   "🤖❂͜͡➣ " + key + "ᴀʙᴏᴜᴛ\n" + \
@@ -1792,11 +1793,11 @@ def bot(op):
                                 kifli.updateProfile(profile)
                                 kifli.sendMessage(msg.to,"Nama diganti jadi " + string + "")
 #KICKALL
-                        elif "!curut" in msg.text:
+                        elif "!maxkick" in msg.text:
                           if msg._from in admin:
                            if msg.toType == 2:
                               print("ok")
-                              _name = msg.text.replace("!curut","")
+                              _name = msg.text.replace("!maxkick","")
                               gs = kifli.getGroup(msg.to)
                               gs = kifli.getGroup(msg.to)
                               gs = kifli.getGroup(msg.to)
@@ -2862,7 +2863,7 @@ def bot(op):
                              jawaban = random.choice(jawab)
                              kifli.sendMessage(msg.to,"Besar dosa " + tanya + " adalah " + jawaban + " sampai saat ini")
 
-                        elif "Dkbot " in msg.text:
+                        elif "Maxbot " in msg.text:
                             tanya = msg.text.replace("Dkbot ","")
                             jawab = ("TIDAK","YA")
                             jawaban = random.choice(jawab)
