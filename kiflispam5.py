@@ -22,40 +22,40 @@ from googletrans import Translator
 import youtube_dl
 #import pyimgflip
 
-cl = LineClient(authToken='Ezizf2qItPhYHH2wGBQd.dTbkez9byvQdGSoZqBLYdq.7u1WQ6E0UI6F0A2cw1KFSg2w+cv7rlwg5RUQzjp4mbM=')
+cl = LineClient(authToken='')
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-ki = LineClient(authToken='EztHspP2wFn1PaRaiYR5.8OY1iJbE2cs3otqwBUM9rq.ar5OfBRCHJUoV9MvUY8HfJRd3K4e6Y5tpxNd0q4m+fo=')
+ki = LineClient(authToken='')
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki,ki.server.CHANNEL_ID['LINE_TIMELINE'])
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 
-kk = LineClient(authToken='EzveTOMpdT5IBYXwULab.x6JXUNwTo2ABeWsGFXEkYW.oR8QzM/UrBd+Ban4Z0LpvMgkrfQSHJwOb2YOIGK/GOg=')
+kk = LineClient(authToken='')
 kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk,kk.server.CHANNEL_ID['LINE_TIMELINE'])
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
 
-kc = LineClient(authToken='Ezw0zEnJNyceNdM36ROf.iXDW3NqeZe2QwsaB0p/2tW.lOPpQIMHouQLyjvwwomS6ZXh5Jd6jBhEs2iIJ/KOpfc=')
+kc = LineClient(authToken='')
 kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc,kc.server.CHANNEL_ID['LINE_TIMELINE'])
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
 
-sw = LineClient(authToken='EzwycDtCcFUrsNTvX3O7.ysELs5+0aaJPhSRVRuIgzW.lWJ1hA0p5K5wzbL+kLYtKX7bXEUHSqHrRYxjd9kil/Y=')
+sw = LineClient(authToken='')
 sw.log("Auth Token : " + str(sw.authToken))
 channel4 = LineChannel(sw,sw.server.CHANNEL_ID['LINE_TIMELINE'])
 sw.log("Channel Access Token : " + str(channel4.channelAccessToken))
 print ("LOGIN SUKSES SEMUA\n")
-print ("\nBOT MULAI BERJALAN......")
+print ("\nBY: SELFBOT-BY:MAX")
 
 
 poll = LinePoll(cl)
 call = cl
-creator = ["u0ed04a119f41615a8382c3b341b9720d"]
-owner = ["u0ed04a119f41615a8382c3b341b9720d"]
-admin = ["u0ed04a119f41615a8382c3b341b9720d"]
-staff = ["u0ed04a119f41615a8382c3b341b9720d"]
+creator = [""]
+owner = [""]
+admin = [""]
+staff = [""]
 lineProfile = cl.getProfile()
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
@@ -93,7 +93,6 @@ settings = {
     "groupPicture":False,
     "changePicture":False,
     "autoJoinTicket":False,
- #   "restartPoint": null,
     "userMention":{},
     "timeRestart": {},
     "server": {},
@@ -145,14 +144,14 @@ wait = {
     "invite":False,
     'autoJoin':True,
     'autoAdd':False,
-    'autoBlock':False,
+    'autoBlock':True,
     'Timeline':True,
     'autoLeave':False,
     'autoLeave1':False,
     "detectMention":False,
     "mentionKick":False,
     "sticker":False,
-    "welcomeOn":True,
+    "welcomeOn":False,
     "likeOn":True,
     "stickerOn":False,
     "Addsticker":{
@@ -463,22 +462,22 @@ def help():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage = "🔑" + key + " [🔰Ⓓⓚ~ⒷⓄⓣ☯t]\n" + \
-                   "「🔑] " + key + "✰DRAGON KILLER✰\n" + \
-                  "「🔑]  " + key + "ʜᴇʟᴘ\n" + \
-                  "「🔑]  " + key + "ʜᴇʟᴘ1\n" + \
-                  "「🔑]  " + key + "ʜᴇʟᴘ2\n" + \
-                  "「🔑]  " + key + "ʜᴇʟᴘ3\n" + \
-                  "「🔑]  " + key + "ʜᴇʟᴘ4\n" + \
-                  "「🔑]  " + key + "ʜᴇʟᴘ5\n" + \
-                  "「🔑]  " + key + "ᴍᴇ\n" + \
-                  "「🔑]  " + key + "sᴛᴀᴛᴜs\n" + \
-                   "「🔑] " + key + "ᴀʙᴏᴜᴛ\n" + \
-                  "「🔑]  " + key + "ʀᴇsᴛᴀʀᴛ\n" + \
-                  "「🔑]  " + key + "Bot:on\off\n" + \
-                  "「🔑]  " + key + "Staff:on\off\n" + \
-                   "「🔑] " + key + "Admin on\off\n" + \
-                   "「🔑] " + key + "Refresh\n" + \
-                  " 「🔑] " + key + "Kibar\n" + \
+                  "「🔑] " + key + "✰DRAGON KILLER✰\n" + \
+                  "「🔑] " + key + "ʜᴇʟᴘ\n" + \
+                  "「🔑] " + key + "ʜᴇʟᴘ1\n" + \
+                  "「🔑] " + key + "ʜᴇʟᴘ2\n" + \
+                  "「🔑] " + key + "ʜᴇʟᴘ3\n" + \
+                  "「🔑] " + key + "ʜᴇʟᴘ4\n" + \
+                  "「🔑] " + key + "ʜᴇʟᴘ5\n" + \
+                  "「🔑] " + key + "ᴍᴇ\n" + \
+                  "「🔑] " + key + "sᴛᴀᴛᴜs\n" + \
+                  "「🔑] " + key + "ᴀʙᴏᴜᴛ\n" + \
+                  "「🔑] " + key + "ʀᴇsᴛᴀʀᴛ\n" + \
+                  "「🔑] " + key + "Bot:on\off\n" + \
+                  "「🔑] " + key + "Staff:on\off\n" + \
+                  "「🔑] " + key + "Admin on\off\n" + \
+                  "「🔑] " + key + "Refresh\n" + \
+                  "「🔑] " + key + "Kibar\n" + \
                   "「🔑] " + key + "klinik\n" + \
                   "「🔑] " + key + "Masuk\n" + \
                   "「🔑] " + key + "Pulang/sᴘ\n" + \
@@ -509,7 +508,7 @@ def help():
                   "「🔑] " + key + "ʀᴇsᴇᴛᴋᴇʏ\n" + \
                   "「🔑] " + key + "ʀᴇғʀᴇsʜ\n" + \
                   "「🔑] " + key + "Restart\n"+ \
-                  "「🔑] [DKBOT-LINE]「🔑]"
+                  "「🔑] SELFBOT-BY:MAX「🔑]"
 
     return helpMessage
 
@@ -536,20 +535,20 @@ def help1():
                   "🔑❂➣ " + key + "ᴄʟᴏɴᴇ「@」\n" + \
                   "🔑❂➣ " + key + "ʀᴇsᴛᴏʀᴇ\n" + \
                   "🔑❂➣ " + key + "ʙᴀᴄᴋᴜᴘ\n" + \
-                   "🔑❂➣" + key + "ʀᴇᴊᴇᴄᴛ\n" + \
+                  "🔑❂➣ " + key + "ʀᴇᴊᴇᴄᴛ\n" + \
                   "🔑❂➣ " + key + "sᴘᴀᴍᴄᴀʟʟᴛᴏ 「ᴊᴜᴍʟᴀʜ」 「@」\n" + \
                   "🔑❂➣ " + key + "sᴘᴀᴍᴛᴀɢ:「ᴊᴜᴍʟᴀʜɴʏᴀ」\n" + \
                   "🔑❂➣ " + key + "sᴘᴀᴍᴛᴀɢ「@」\n" + \
                   "🔑❂➣ " + key + "sᴘᴀᴍᴄᴀʟʟ:「ᴊᴜᴍʟᴀʜɴʏᴀ」\n" + \
-                   "🔑❂➣ " + key + "sᴘᴀᴍᴄᴀʟʟ\n" + \
-                   "🔑❂➣ " + key + "ᴍʏɴᴀᴍᴇ:「ɴᴀᴍᴀ」\n" + \
-                   "🔑❂➣ " + key + "ᴄᴘᴘ「ᴋɪʀɪᴍ ғᴏᴛᴏɴʏᴀ」\n" + \
-                   "🔑❂➣ " + key + "ᴄᴠᴘ 「ᴋɪʀɪᴍ ᴠɪᴅᴇᴏɴʏᴀ」\n" + \
-                   "🔑❂➣ " + key + "ᴜᴘᴅᴀᴛᴇɢʀᴜᴘ\n" + \
-                   "🔑❂➣ " + key + "ɢɪғᴛ:「ᴍɪᴅ ᴋᴏʀʙᴀɴ」「ᴊᴜᴍʟᴀʜ」\n" + \
-                   "🔑❂➣ " + key + "sᴘᴀᴍ:「ᴍɪᴅ ᴋᴏʀʙᴀɴ」「ᴊᴜᴍʟᴀʜ」\n" + \
-                   "「🔑] ʙʏ: Dzulkifli\n" + \
-                   "  Creator:  line.me/ti/p/~reza.p.i.p"
+                  "🔑❂➣ " + key + "sᴘᴀᴍᴄᴀʟʟ\n" + \
+                  "🔑❂➣ " + key + "ᴍʏɴᴀᴍᴇ:「ɴᴀᴍᴀ」\n" + \
+                  "🔑❂➣ " + key + "ᴄᴘᴘ「ᴋɪʀɪᴍ ғᴏᴛᴏɴʏᴀ」\n" + \
+                  "🔑❂➣ " + key + "ᴄᴠᴘ 「ᴋɪʀɪᴍ ᴠɪᴅᴇᴏɴʏᴀ」\n" + \
+                  "🔑❂➣ " + key + "ᴜᴘᴅᴀᴛᴇɢʀᴜᴘ\n" + \
+                  "🔑❂➣ " + key + "ɢɪғᴛ:「ᴍɪᴅ ᴋᴏʀʙᴀɴ」「ᴊᴜᴍʟᴀʜ」\n" + \
+                  "🔑❂➣ " + key + "sᴘᴀᴍ:「ᴍɪᴅ ᴋᴏʀʙᴀɴ」「ᴊᴜᴍʟᴀʜ」\n" + \
+                  "「🔑] ʙʏ: Dzulkifli\n" + \
+                  "Creator:  line.me/ti/p/~reza.p.i.p"
                   
     return helpMessage1
 
