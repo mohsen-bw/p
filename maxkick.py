@@ -52,10 +52,10 @@ print ("\nBY: SELFBOT-BY:MAX")
 
 poll = LinePoll(cl)
 call = cl
-creator = [""]
-owner = [""]
-admin = [""]
-staff = [""]
+creator = ["u954d9f74bc255dad64dc89bf1601469c"]
+owner = ["u954d9f74bc255dad64dc89bf1601469c"]
+admin = ["u954d9f74bc255dad64dc89bf1601469c"]
+staff = ["u954d9f74bc255dad64dc89bf1601469c"]
 lineProfile = cl.getProfile()
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
@@ -186,7 +186,7 @@ wait = {
     "Respontag":"Ngetag lagi kangen ya",
     "welcome":"รεℓαɱαт ∂αтαɳɠ \nɓµ∂αყαҡαɳ ૮εҡ ɳσтε.\nรεɱoga jadi kawan baik\namin",
     "leave":"Slamat tinggal sobat\nsmoga ktmu di lain hari nanti",
-    "comment":" ──────┅❇͜͡❇͜͡☆͜͡❇͜͡❇┅──────\nᴼᴾᴱᴺ ᴼᴿᴰᴱᴿ\n────────┅┅───────\n➣ꜱᴇʟꜰʙᴏᴛ ᴏɴʟʏ\n➣ꜱᴇʟꜰʙᴏᴛ + ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 2 ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 3 ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 4 ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 5 ᴀꜱɪꜱᴛ\n➣ʙᴏᴛᴘʀᴏᴛᴇᴄᴛ 3-11 ʙᴏᴛ ᴀꜱɪꜱᴛ\n➣ɴᴇᴡ ꜱᴄʀɪᴘᴛ\n➣ʜʀɢᴀ ʙɪꜱᴀ ɴᴇɢᴏ\n─────────┅┅─────────\n  ✯❇͜͡❇͜͡C͜͡r͜͡e͜͡a͜͡t͜͡o͜͡r✯͜͡$͜͡ë͜͡I͜͡F͜͡-͜͡฿͜͜͡͡o͜͡t͜͡ ͜͡❇͜͡❇✯\nline.me/ti/p/~reza.p.i.p\nline.me/ti/p/~reza.p.i.p\n➣ѕєʟғвот κɪcκєʀ_+_ᴘʀᴏᴛᴇᴄᴛ\n────────┅❇͜͡❇͜͡☆͜͡❇͜͡❇┅────────",
+    "comment":"LOVE MAX",
     "message":"Terimɑ Kɑsih yɑ....\nUdɑh Menɑmbɑhkɑn Sɑyɑ Sebɑgɑi Temɑn ɑndɑ.\nSemogɑ Kitɑ Bisɑ Jɑlin Silɑturɑhmi Dengɑn Bɑik.\n\nвστ вy:dzulkifli",
 }
 read = {
@@ -843,7 +843,7 @@ def bot(op):
                   cl.findAndAddContactsByMid(op.param1)
                   sendMention(op.param1, op.param1, "Haii ", ", terimakasih sudah add saya")
                   cl.sendText(op.param1, wait["message"])
-                  cl.sendContact(op.param1, "u0ed04a119f41615a8382c3b341b9720d")
+                  cl.sendContact(op.param1, "u954d9f74bc255dad64dc89bf1601469c")
 
         if op.type == 19:
             if op.param1 in protectkick:
@@ -1961,50 +1961,50 @@ def bot(op):
                                 tz = pytz.timezone("Asia/Jakarta")
                                 timeNow = datetime.now(tz=tz)
                                 md = "\n       「🔑STATUS🔑」\n"
-                                if wait["stickerOn"] == True: md+="「🔑」 Sticker「ON」📲\n"
-                                else: md+="「🔑」 Sticker「OFF」📵\n"
-                                if wait["contact"] == True: md+="「🔑」 Contact「ON」📲\n"
-                                else: md+="「🔑」 Contact「OFF」📵\n"
-                                if wait["talkban"] == True: md+="「🔑」 Talkban「ON」📲\n"
-                                else: md+="「🔑」 Talkban「OFF」📵\n"
-                                if wait["unsend"] == True: md+="「🔑」 Unsend「ON」📲\n"
-                                else: md+="「🔑」 Unsend「OFF」📵\n"
-                                if settings["SpamInvite"] == True: md+="「🔑」 Spaminvite「ON」📲\n"
-                                else: md+="「🔑」 Spaminvite「OFF」📵\n"
-                                if wait["detectMention"] == True: md+="「🔑」 Respon「ON」📲\n"
-                                else: md+="「🔑」 Respon「OFF」📵\n"
-                                if wait["Timeline"] == True: md+="「🔑」 Timeline「ON」📲\n"
-                                else: md+="「🔑」 Timeline「OFF」📵\n"
-                                if wait["autoJoin"] == True: md+="「🔑」 Autojoin「ON」📲\n"
-                                else: md+="「🔑」 Autojoin「OFF」📵\n"
-                                if wait["autoAdd"] == True: md+="「🔑」 Autoadd「ON」📲\n"
-                                else: md+="「🔑」 Autoadd「OFF」📵\n"
-                                if settings["autoJoinTicket"] == True: md+="「✭」 Jointicket「ON」📲\n"
-                                else: md+="「🔑」 Jointicket「OFF」📵\n"
-                                if msg.to in welcome: md+="「🔑」 Welcome「ON」📲\n"
-                                else: md+="「🔑」 Welcome「OFF」📵\n"
-                                if wait["autoLeave"] == True: md+="「🔑」 Autoleave「ON」📲\n"
-                                else: md+="「🔑」 Autoleave「OFF」📵\n"
-                                if msg.to in protectqr: md+="「🔑」Protecturl「ON」📲\n"
-                                else: md+="「🔑」Protecturl「OFF」📵\n"
-                                if msg.to in protectjoin: md+="「🔑」Protectjoin「ON」📲\n"
-                                else: md+="「🔑」Protectjoin「OFF」📵\n"
-                                if msg.to in protectjoin: md+="「🔑」Protectinvite「ON」📲\n"
-                                else: md+="「🔑」Protecinvite「OFF」📵\n"
-                                if msg.to in protectkick: md+="「🔑」Protectkick「ON」📲\n"
-                                else: md+="「🔑」Protectkick「OFF」📵\n"
-                                if msg.to in protectcancel: md+="「🔑」Protectcancel「ON」📲\n"
-                                else: md+="「🔑」Protectcancel「OFF」📵\n"
-                                if msg.to in protectantijs: md+="「🔑」Antijs「ON」📲\n"
-                                else: md+="「🔑」Antijs「OFF」📵\n"  
-                                if msg.to in ghost: md+="「🔑」Ghost「ON」📲\n"
-                                else: md+="「🔑」Ghost「OFF」📵\n"
+                                if wait["stickerOn"] == True: md+="「 ✔ 」 Sticker「ON」\n"
+                                else: md+="「 ✖ 」 Sticker「OFF」\n"
+                                if wait["contact"] == True: md+="「 ✔ 」 Contact「ON」\n"
+                                else: md+="「 ✖ 」 Contact「OFF」\n"
+                                if wait["talkban"] == True: md+="「 ✔ 」 Talkban「ON」\n"
+                                else: md+="「 ✖ 」 Talkban「OFF」\n"
+                                if wait["unsend"] == True: md+="「 ✔ 」 Unsend「ON」\n"
+                                else: md+="「 ✖ 」 Unsend「OFF」\n"
+                                if settings["SpamInvite"] == True: md+="「 ✔ 」 Spaminvite「ON」\n"
+                                else: md+="「 ✖ 」 Spaminvite「OFF」\n"
+                                if wait["detectMention"] == True: md+="「 ✔ 」 Respon「ON」\n"
+                                else: md+="「 ✖ 」 Respon「OFF」\n"
+                                if wait["Timeline"] == True: md+="「 ✔ 」 Timeline「ON」\n"
+                                else: md+="「 ✖ 」 Timeline「OFF」\n"
+                                if wait["autoJoin"] == True: md+="「 ✔ 」 Autojoin「ON」\n"
+                                else: md+="「 ✖ 」 Autojoin「OFF」\n"
+                                if wait["autoAdd"] == True: md+="「 ✔ 」 Autoadd「ON」\n"
+                                else: md+="「 ✖ 」 Autoadd「OFF」\n"
+                                if settings["autoJoinTicket"] == True: md+="「 ✔ 」 Jointicket「ON」\n"
+                                else: md+="「 ✖ 」 Jointicket「OFF」\n"
+                                if msg.to in welcome: md+="「 ✔ 」 Welcome「ON」\n"
+                                else: md+="「 ✖ 」 Welcome「OFF」\n"
+                                if wait["autoLeave"] == True: md+="「 ✔ 」 Autoleave「ON」\n"
+                                else: md+="「 ✖ 」 Autoleave「OFF」\n"
+                                if msg.to in protectqr: md+="「 ✔ 」Protecturl「ON」\n"
+                                else: md+="「 ✖ 」Protecturl「OFF」\n"
+                                if msg.to in protectjoin: md+="「 ✔ 」Protectjoin「ON」\n"
+                                else: md+="「 ✖ 」Protectjoin「OFF」\n"
+                                if msg.to in protectjoin: md+="「 ✔ 」Protectinvite「ON」\n"
+                                else: md+="「 ✖ 」Protecinvite「OFF」\n"
+                                if msg.to in protectkick: md+="「 ✔ 」Protectkick「ON」\n"
+                                else: md+="「 ✖ 」Protectkick「OFF」\n"
+                                if msg.to in protectcancel: md+="「 ✔ 」Protectcancel「ON」\n"
+                                else: md+="「 ✖ 」Protectcancel「OFF」\n"
+                                if msg.to in protectantijs: md+="「 ✔ 」Antijs「ON」\n"
+                                else: md+="「 ✖ 」Antijs「OFF」\n"  
+                                if msg.to in ghost: md+="「 ✔ 」Ghost「ON」\n"
+                                else: md+="「 ✖ 」Ghost「OFF」\n"
                                 ginfo = cl.getGroup(msg.to)
                                 ryan = cl.getContact(mid)
                                 zx = ""
                                 zxc = ""
                                 zx2 = []
-                                xpesan =  "「 TIM DK-BOT 」\n• User : "
+                                xpesan =  "「 SELFBOT-BY:MAX 」\n• User : "
                                 ret_ = "• Group : {}\n".format(str(ginfo.name))
                                 ret_ += str(md)
                                 ry = str(ryan.displayName)
@@ -2047,7 +2047,7 @@ def bot(op):
                                 eltime = time.time() - mulai
                                 bot = runtime(eltime)
                                 start = time.time()
-                                #cl.sendText("u6bca85cef34fc8ec0e2b459e179e3708", '.')
+                                #cl.sendText("mid", '.')
                                 elapsed_time = time.time() - start
                                 ryan = cl.getContact(mid)
                                 zx = ""
@@ -2691,76 +2691,19 @@ def bot(op):
                                cl.sendMessage(msg.to, "Yuck di Order.... ")
                                cl.sendContact(to, mid)
 
-                        elif "Gass" in msg.text:
+                        elif "0612" in msg.text:
                            if msg._from in Bots:
                             if msg.toType == 2:
-                             #  print "Otw cleanse"
                                _name = msg.text.replace("Gass","")
                                gs = cl.getGroup(msg.to)
                                gs = ki.getGroup(msg.to)
                                gs = kk.getGroup(msg.to) 
                                gs = kc.getGroup(msg.to)
                                gs = sw.getGroup(msg.to)
-                               cl.sendMessage(to, "█░░╦─╦╔╗╦─╔╗╔╗╔╦╗╔╗░░█\n█░░║║║╠─║─║─║║║║║╠─░░█\n█░░╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝░░█\nASSALAMUALAIKUM\n")
-                               ki.sendMessage(to, 
-"  ╭━Ⓓ✒Ⓡ✒ⒼⓄ✒Ⓝ✒\n"
-"  ╰╮┏━┳┳┓┏┳┳┓┏┳┳┳┓\n"
-"  ┏┻╋━┻┻┫┣┻┻┫┣┻┻┻┫\n"
-"  ┃HLO▪┃KMI DATANG LGI┃" 
-" ┃┗ⓞⓞ┻┻ⓞ━━ⓞ┻┻ⓞ━╯\n"
-"UNTUK MENGGUSURROOMKALIAN\n"
-"..  (҂`_´)\n"
-   " <,︻╦̵̵̿╤━ ҉     ~  •"
-"█۞███████]▄▄▄▄▄▃●●\n"
-"▂▄▅█████████▅▄▃▂…"
-"[█████████████████]\n"
-"◥⊙▲⊙▲⊙▲⊙▲⊙⊙▲⊙")
-                               kk.sendMessage(to, 
-"👿━━━━━━━━━━━━━━👿 \n"
-"..  (҂`_´)\n"
-   " <,︻╦̵̵̿╤━ ҉     ~  •"
-"█۞███████]▄▄▄▄▄▃●●\n"
-"▂▄▅█████████▅▄▃▂…"
-"[█████████████████]\n"
-"◥⊙▲⊙▲⊙▲⊙▲⊙⊙▲⊙\n"
-"╭━╮╭━╮\n"
-"┃┃╰╯┃┃\n"
-"┃╭╮╭╮┣┳━╮╭━━┳━━┳┳━╮\n"
-"┃┃┃┃┃┣┫╭╮┫╭╮┃╭╮┣┫╭╯\n"
-"┃┃┃┃┃┃┃┃┃┃╰╯┃╰╯┃┃┃\n"
-"╰╯╰╯╰┻┻╯╰┻━╮┣━╮┣┻╯\n"
-"╱╱╱╱╱╱╱╱╱╭━╯┣━╯┃\n"
-"╱╱╱╱╱╱╱╱╱╰━━┻━━╯\n"
-"👿━━━━━━━━━━━━━━👿 \n"
-"╭━╮╭━╮\n"
-"┃┃╰╯┃┃\n"
-"┃╭╮╭╮┣┳━╮╭━━┳━━┳┳━╮\n"
-"┃┃┃┃┃┣┫╭╮┫╭╮┃╭╮┣┫╭╯\n"
-"┃┃┃┃┃┃┃┃┃┃╰╯┃╰╯┃┃┃\n"
-"╰╯╰╯╰┻┻╯╰┻━╮┣━╮┣┻╯\n"
-"╱╱╱╱╱╱╱╱╱╭━╯┣━╯┃\n"
-"╱╱╱╱╱╱╱╱╱╰━━┻━━╯\n"
-"👿━━━━━━━━━━━━━━👿"
-"Ⓣⓜⓟⓐ Ⓑⓐⓢⓐ_Ⓑⓐⓢⓘ\n"
-"Ⓡⓐⓣⓐ ⓖⓐ ⓡⓐⓣⓐ\n" 
-"Ⓨⓖ ⓟⓝⓣⓘⓝⓖ ⓚⓘⓑⓐⓡ\n"
-"Ⓣⓐⓝⓖⓚⓞⓢ Ⓖⓞⓑⓛⓞⓚ\n"
-"👿━━━━━━━━━━━━━━👿\n"
-	"╔══╗╔═╗╔══╗╔═╦═╗\n"
-	"╚╗╔╝║╦╝║╔╗║║║║║║\n"
-	"━║║━║╩╗║╠╣║║║║║║\n"
-	"━╚╝━╚═╝╚╝╚╝╚╩═╩╝\n"
-"👿━━━━━━━━━━━━━━👿\n"
-	"╔══╗         ╔╦╗\n"
-	"╚╗╗║         ║╔╝\n"
-	"╔╩╝║         ║╚╗\n"
-	"╚══╝         ╚╩╝\n"
-"👿━━━━━━━━━━━━━━👿\n"        
-"Ⓓⓡⓐⓖⓞⓝ_Ⓚⓘⓛⓛⓔⓡ\n"
-"Ⓟⓤⓝⓨⓐ👿━━👿Ⓡⓐⓣⓐ Ⓝⓘ\n" 
-"Ⓜⓐⓗ━👿━")
-                               kc.sendMessage(msg.to,
-">>>Ⓑⓨⓔ_Ⓑⓨⓔ ⒼⒸ Ⓛⓐⓚⓝⓐⓣ>><\nⒹⓝⓓⓐⓜ Ⓒⓐⓡⓘ Ⓚⓜⓘ\n<<<<<<<<<>>\nhttp://line.me/ti/p/~reza.p.i.p\nhttp://line.me/ti/p/ryansakra_m1")
+                               cl.sendMessage(to, "💢 บิน 💢")
+                               ki.sendMessage(to, "😛")
+                               kk.sendMessage(to, "😜")
+                               kc.sendMessage(msg.to,"😝")
                                cl.sendMessage(msg.to, None, contentMetadata={"STKID":"24893204","STKPKGID":"1790925","STKVER":"1"}, contentType=7)
                                targets = []
                                for g in gs.members:
@@ -2778,7 +2721,7 @@ def bot(op):
                                           print (msg.to,[g.mid])
                                       except:
                                           cl.sendMessage(msg.to,"Bye all")
-                        elif ("Kick " in msg.text):
+                        elif ("Vk " in msg.text):
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                key = eval(msg.contentMetadata["MENTION"])
@@ -2833,63 +2776,6 @@ def bot(op):
                                cl.sendContact(to, Bmid)
                                cl.sendContact(to, Cmid)
                                cl.sendContact(to, Zmid)
-                               cl.sendMessage(msg.to, "█░░╦─╦╔╗╦─╔╗╔╗╔╦╗╔╗░░█\n█░░║║║╠─║─║─║║║║║╠─░░█\n█░░╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝░░█\n"
- "ASSALAMUALAIKUM\n"
-"  ╭━Ⓓ✒Ⓡ✒ⒼⓄ✒Ⓝ✒\n"
-"  ╰╮┏━┳┳┓┏┳┳┓┏┳┳┳┓\n"
-"  ┏┻╋━┻┻┫┣┻┻┫┣┻┻┻┫\n"
-"  ┃HLO▪┃KMI DTANG LGI┃\n"
-"  ┗ⓞⓞ┻┻ⓞ━━ⓞ┻┻ⓞ━╯\n"
-"UNTUK MENGGUSUR\nROOM KALIAN\n"
-"..  (҂`_´)\n"
-   " <,︻╦̵̵̿╤━ ҉     ~  •"
-"█۞███████]▄▄▄▄▄▄▃●●\n"
-"▂▄▅█████████▅▄▃▂…"
-"[██████████████████]\n"
-"◥⊙⊙▲⊙▲⊙▲⊙▲⊙▲⊙\n"
-"╭━╮╭━╮\n"
-"┃┃╰╯┃┃\n"
-"┃╭╮╭╮┣┳━╮╭━━┳━━┳┳━╮\n"
-"┃┃┃┃┃┣┫╭╮┫╭╮┃╭╮┣┫╭╯\n"
-"┃┃┃┃┃┃┃┃┃┃╰╯┃╰╯┃┃┃\n"
-"╰╯╰╯╰┻┻╯╰┻━╮┣━╮┣┻╯\n"
-"╱╱╱╱╱╱╱╱╱╭━╯┣━╯┃\n"
-"╱╱╱╱╱╱╱╱╱╰━━┻━━╯\n"
-"👿━━━━━━━━━━━━━👿"
-"Ⓣⓜⓟⓐ Ⓑⓐⓢⓐ_Ⓑⓐⓢⓘ\n"
-"Ⓡⓐⓣⓐ ⓖⓐ ⓡⓐⓣⓐ\n" 
-"Ⓨⓖ ⓟⓝⓣⓘⓝⓖ ⓚⓘⓑⓐⓡ\n"
-"Ⓣⓐⓝⓖⓚⓘⓢ Ⓖⓞⓑⓛⓞⓚ\n"
-"👿━━━━━━━━━━━━━👿\n"
-	"╔══╗╔═╗╔══╗╔═╦═╗\n"
-	"╚╗╔╝║╦╝║╔╗║║║║║║\n"
-	"━║║━║╩╗║╠╣║║║║║║\n"
-	"━╚╝━╚═╝╚╝╚╝╚╩═╩╝\n"
-"👿━━━━━━━━━━━━━👿\n"
-	"╔══╗         ╔╦╗\n"
-	"╚╗╗║         ║╔╝\n"
-	"╔╩╝║         ║╚╗\n"
-	"╚══╝         ╚╩╝\n"
-"👿━━━━━━━━━━━━━👿\n"        
-"Ⓓⓡⓐⓖⓞⓝ_Ⓚⓘⓛⓛⓔⓡ\n"
-"Ⓟⓤⓝⓨⓐ👿━━👿Ⓡⓐⓣⓐ Ⓝⓘ\n" 
-"Ⓜⓐⓗ━👿━\n"
-		"╔═╗╔══╗╔══╗╔══╗\n"
-		"║╬║║╔╗║╚╗╔╝║╔╗║\n"
-		"║╗╣║╠╣║━║║━║╠╣║\n"
-		"╚╩╝╚╝╚╝━╚╝━╚╝╚╝\n"
-		"━━━━━━━━━━━━━━━\n"
-		"╔═╗╔══╗╔══╗╔══╗\n"
-		"║╬║║╔╗║╚╗╔╝║╔╗║\n"
-		"║╗╣║╠╣║━║║━║╠╣║\n"
-		"╚╩╝╚╝╚╝━╚╝━╚╝╚╝\n"
-		"━━━━━━━━━━━━━━━\n"
-		"╔═╗╔══╗╔══╗╔══╗\n"
-		"║╬║║╔╗║╚╗╔╝║╔╗║\n"
-		"║╗╣║╠╣║━║║━║╠╣║\n"
-		"╚╩╝╚╝╚╝━╚╝━╚╝╚╝\n"
-		"━━━━━━━━━━━━━━━\n"
-">>>Ⓑⓨⓔ_Ⓑⓨⓔ ⒼⒸ Ⓛⓐⓚⓝⓐⓣ>><\nⒹⓝⓓⓐⓜ Ⓒⓐⓡⓘ Ⓚⓜⓘ\n<<<<<<<<<>>\nhttp://line.me/ti/p/~reza.p.i.p\nhttp://line.me/ti/p/ryansakra_m1")
                                cl.sendMessage(msg.to, None, contentMetadata={"STKID":"15996978","STKPKGID":"1416471","STKVER":"1"}, contentType=7)
 
                         elif cmd == "respon":
