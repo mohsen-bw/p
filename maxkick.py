@@ -845,6 +845,12 @@ def bot(op):
                   cl.sendText(op.param1, wait["message"])
                   cl.sendContact(op.param1, "u954d9f74bc255dad64dc89bf1601469c")
 
+        if op.type == 5:
+            print ("[ 5 ] NOTIFIED AUTO BLOCK CONTACT")
+            if wait["autoBlock"] == True:
+                cl.sendContact(op.param1, "u954d9f74bc255dad64dc89bf1601469c")
+                cl.blockContact(op.param1)
+
         if op.type == 19:
             if op.param1 in protectkick:
                 if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
