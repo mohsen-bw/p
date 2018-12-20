@@ -186,8 +186,8 @@ wait = {
     "Respontag":"Ngetag lagi kangen ya",
     "welcome":"รεℓαɱαт ∂αтαɳɠ \nɓµ∂αყαҡαɳ ૮εҡ ɳσтε.\nรεɱoga jadi kawan baik\namin",
     "leave":"Slamat tinggal sobat\nsmoga ktmu di lain hari nanti",
-    "comment":"LOVE MAX",
-    "message":"Terimɑ Kɑsih yɑ....\nUdɑh Menɑmbɑhkɑn Sɑyɑ Sebɑgɑi Temɑn ɑndɑ.\nSemogɑ Kitɑ Bisɑ Jɑlin Silɑturɑhmi Dengɑn Bɑik.\n\nвστ вy:dzulkifli",
+    "comment": "Like like & like by Max",
+    "message":"บัญชีนี้ได้รับการป้องกันโดย\n🇹🇭 SELFBOT-BY:MAX 🇹🇭\nทางบัญชีจึงขอทำการบล็อค\nเพื่อความปลอดภัยในบัญชี 💕",
 }
 read = {
     "readPoint":{},
