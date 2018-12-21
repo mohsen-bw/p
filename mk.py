@@ -152,7 +152,7 @@ wait = {
     "welcome":"รεℓαɱαт ∂αтαɳɠ \nɓµ∂αყαҡαɳ ૮εҡ ɳσтε.\nรεɱoga jadi kawan baik\namin",
     "leave":"Slamat tinggal sobat\nsmoga ktmu di lain hari nanti",
     "comment":" ──────┅❇͜͡❇͜͡☆͜͡❇͜͡❇┅──────\nᴼᴾᴱᴺ ᴼᴿᴰᴱᴿ\n────────┅┅───────\n➣ꜱᴇʟꜰʙᴏᴛ ᴏɴʟʏ\n➣ꜱᴇʟꜰʙᴏᴛ + ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 2 ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 3 ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 4 ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 5 ᴀꜱɪꜱᴛ\n➣ʙᴏᴛᴘʀᴏᴛᴇᴄᴛ 3-11 ʙᴏᴛ ᴀꜱɪꜱᴛ\n➣ɴᴇᴡ ꜱᴄʀɪᴘᴛ\n➣ʜʀɢᴀ ʙɪꜱᴀ ɴᴇɢᴏ\n─────────┅┅─────────\n  ✯❇͜͡❇͜͡BY SELFBOT-BY:MAX❇͜͡❇✯\nline.me/ti/p/~max_pv\nline.me/ti/p/~max_pv\n➣ѕєʟғвот κɪcκєʀ_+_ᴘʀᴏᴛᴇᴄᴛ\n────────┅❇͜͡❇͜͡☆͜͡❇͜͡❇┅────────",
-    "message":"Terimɑ Kɑsih yɑ....\nUdɑh Menɑmbɑhkɑn Sɑyɑ Sebɑgɑi Temɑn ɑndɑ.\nSemogɑ Kitɑ Bisɑ Jɑlin Silɑturɑhmi Dengɑn Bɑik.\n\nвστ вy:SELFBOT-BY:MAX",
+    "message":"บัญชีนี้ได้รับการป้องกันโดย\n🕵 SELFBOT-BY:MAX 🕵\nทางบัญชีจึงขอทำการบล็อค\nเพื่อความปลอดภัยในบัญชี 🕵",
 }
 read = {
     "readPoint":{},
@@ -608,6 +608,7 @@ def bot(op):
         if op.type == 5:
             print ("[ 5 ] NOTIFIED AUTO BLOCK CONTACT")
             if wait["autoBlock"] == True:
+                kifli.sendText(op.param1, wait["message"])
                 kifli.sendContact(op.param1, "u954d9f74bc255dad64dc89bf1601469c")
                 kifli.blockContact(op.param1)
 
@@ -1270,7 +1271,7 @@ def bot(op):
                         elif cmd == "me" or text.lower() == 'aim':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
-                               sendMention(msg.to, sender, "「 User Selfbot 」\n", "")
+                               sendMention(msg.to, sender, "「 ผู้สร้าง 」\n", "")
                                msg.contentType = 13
                                msg.contentMetadata = {'mid': mid}
                                kifli.sendMessage1(msg)
@@ -1393,7 +1394,7 @@ def bot(op):
                               else:
                                   kifli.sendMessage(to, "Tidak ada undangan yang tertunda")
 
-                        elif text.lower() == "hapus chat":
+                        elif text.lower() == "remove chat":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                try:
